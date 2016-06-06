@@ -1,6 +1,6 @@
 # Static2JS Brunch
 
-A experimental Brunch plugin to load "static" files in the Javascript side.
+An experimental Brunch plugin to load "static" files in the Javascript side.
 
 ## Installation
 
