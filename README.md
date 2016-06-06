@@ -2,6 +2,23 @@
 
 An experimental Brunch plugin to load "static" files in the Javascript side.
 
+## Usage
+
+Save your files under `app` (or other the main app path) with the extention `.static.something`,
+where `something` can be for example `html`. For this example, I'm using a file called
+`my_file.static.html`, that is under the main app directory. You can save your files anywhere under
+the main app directory.
+
+After that, require your file like you would do with a JS file,
+but you also have to include `static`.
+
+```js
+import textFromFile from './my_file.static';
+```
+
+This can be useful when you are writing a Vue.js template and don't want to lose
+HTML syntax highlight.
+
 ## Installation
 
 ```
