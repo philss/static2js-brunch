@@ -2,6 +2,12 @@
 
 A experimental Brunch plugin to load "static" files in the Javascript side.
 
+## Installation
+
+```
+npm install philss/static2js-brunch --save-dev
+```
+
 ## License
 
 The MIT License (MIT)
