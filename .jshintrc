@@ -1,6 +1,5 @@
 {
   "esversion": 6,
-  // Predefined globals
   "predef": ["require", "it", "describe", "module"],
   "camelcase": true,
   "curly": true,
